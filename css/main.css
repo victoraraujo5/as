@@ -1,0 +1,128 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #373e41;
+    height: 60px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 15px;
+    width: 75%;
+}
+.redes-sociais ul li{
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+.header-2{
+    background-color:#ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding-right: 5px;
+}
+.menu-links{
+    border-bottom: 3px solid #8af3ee;
+    height: 50px;
+
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #585d5d;
+    height: 31px;
+
+}
+.menu ul li:hover{
+    border-bottom:2px solid aqua;
+}
+
+
+.menu ul li a:hover{
+    color: aqua;
+}
+.menu ul li a{
+    font-size: 16px;
+    color: #3525252;
+    text-decoration:none;
+    text-transform:uppercase; 
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.busca{
+    width: 22%;
+    float: left;
+    text-align: center;
+}
+.busca input{
+    background-image: url('../img/procurar.png');
+    background-repeat: no-repeat ;
+    margin-top: 10px;
+    height: 19px;
+    padding: 4.5px;
+    background-position: 96.5%;
+    border: 1px solid #797f7f;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.col-10{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.banner-principal{
+    margin: 0 auto;
+    width: 1920px;
+    height: 576px;
+    float:left;
+    border: none;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url(../img/volta.png) no-repeat;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 5%;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 30px;
+    height: 61px;
+    background-color: transparent;
+    background-image: url(../img/vai.png) no-repeat;
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    right: 5%;
+}
+
+
